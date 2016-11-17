@@ -1,0 +1,31 @@
+{
+  "name": "pull-on-abort",
+  "version": "0.0.0",
+  "description": "Catch abort events in pull streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nichoth/pull-on-abort.git"
+  },
+  "keywords": [
+    "pull-stream",
+    "pull",
+    "stream",
+    "abort"
+  ],
+  "author": "nichoth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nichoth/pull-on-abort/issues"
+  },
+  "homepage": "https://github.com/nichoth/pull-on-abort#readme",
+  "devDependencies": {
+    "pull-abortable": "^4.1.0",
+    "pull-pushable": "^2.0.1",
+    "pull-stream": "^3.5.0",
+    "tape": "^4.6.2"
+  }
+}
